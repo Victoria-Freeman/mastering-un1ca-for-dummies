@@ -27,8 +27,10 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 4. Click on "Enable firewall"
 <img src="images/afwall/2.jpg" alt="AFWall+" height="450">
 5. Enable internet access for core stuff:
+
 - Google Play Services
 - Google Play Store
+
 6. Enable internet only for apps that you need!
 7. Save the changes by clicking on the three dots on the top right corner and clicking on "Apply" and wait until it's done
 <img src="images/afwall/1.jpg" alt="AFWall+" height="450">
@@ -53,12 +55,13 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 7. Click on the three dots on the top right corner and click on "Block all of this page" and wait until it's done
 <img src="images/blocker/6.jpg" alt="Blocker" height="450">
 8. Enable the core services needed for GMS to work (let me know if there should be something else enabled)
-   - GetToken
-   - GmsApiService
-   - GoogleAccountAuthenticatorService
-   - MessagingService
-   - PushMessagingRegistrarProxy
-   - If you have smartwatches, consider enabling WearableSyncMessageService
+
+- GetToken
+- GmsApiService
+- GoogleAccountAuthenticatorService
+- MessagingService
+- PushMessagingRegistrarProxy
+- If you have smartwatches, consider enabling WearableSyncMessageService
 
 ##### Note: Really useful if you experience very low SoT due to Google Play Services running in the background
 
@@ -66,6 +69,7 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 1. Go to the Blocker app homescreen and click on the sort option and choose "On" for "Show running apps on top"
 <img src="images/blocker/7.jpg" alt="Blocker" height="450">
 2. Go back to the homescreen and scroll to the top
+
 3. Look for apps that you don't want to be running at all. Press and hold on the app you want to disable and click on "Disable"
 <img src="images/blocker/8.jpg" alt="Blocker" height="450">
 
