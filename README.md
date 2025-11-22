@@ -53,12 +53,12 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 7. Click on the three dots on the top right corner and click on "Block all of this page" and wait until it's done
 <img src="images/blocker/6.jpg" alt="Blocker" height="450">
 8. Enable the core services needed for GMS to work (let me know if there should be something else enabled)
-- GetToken
-- GmsApiService
-- GoogleAccountAuthenticatorService
-- MessagingService
-- PushMessagingRegistrarProxy
-- If you have smartwatches, consider enabling WearableSyncMessageService
+   - GetToken
+   - GmsApiService
+   - GoogleAccountAuthenticatorService
+   - MessagingService
+   - PushMessagingRegistrarProxy
+   - If you have smartwatches, consider enabling WearableSyncMessageService
 
 ##### Note: Really useful if you experience very low SoT due to Google Play Services running in the background
 
