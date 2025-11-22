@@ -13,26 +13,26 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 #### Reducing transparency and blur (Doesn't require root)
 1. Open Settings
 2. Scroll down and click on "Accessibility"
-![Accessibility](images/reducing-transparency-and-blur/1.jpg)
+<img src="images/reducing-transparency-and-blur/1.jpg" alt="Accessibility" height="450">
 3. Click on "Vision enhancements"
-![Accessibility](images/reducing-transparency-and-blur/2.jpg)
+<img src="images/reducing-transparency-and-blur/2.jpg" alt="Accessibility" height="450">
 4. Scroll to the middle and toggle on "Reduce transparency and blur"
-![Accessibility](images/reducing-transparency-and-blur/3.jpg)
+<img src="images/reducing-transparency-and-blur/3.jpg" alt="Accessibility" height="450">
 
 #### Using a proper Firewall app to deny internet access to 99% of the system (Root required)
 1. [Download](https://github.com/ukanth/afwall/releases) the latest version of AFWall+
 2. Open it and give it root permissions
 3. Click on the three dots on the top right corner
-![AFWall+](images/afwall/1.jpg)
+<img src="images/afwall/1.jpg" alt="AFWall+" height="450">
 4. Click on "Enable firewall"
-![AFWall+](images/afwall/2.jpg)
+<img src="images/afwall/2.jpg" alt="AFWall+" height="450">
 5. Enable internet access for core stuff:
 - Google Play Services
 - Google Play Store
 6. Enable internet only for apps that you need!
 7. Save the changes by clicking on the three dots on the top right corner and clicking on "Apply" and wait until it's done
-![AFWall+](images/afwall/1.jpg)
-![AFWall+](images/afwall/3.jpg)
+<img src="images/afwall/1.jpg" alt="AFWall+" height="450">
+<img src="images/afwall/3.jpg" alt="AFWall+" height="450">
 
 ##### Note: This easy step (if you have root) gives the best results of all tweaks shown under the "Fixing SoT" topic!
 
@@ -41,17 +41,17 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 ##### Fixing Google Play Services
 1. [Download](https://github.com/lihenggui/blocker/releases) the latest Blocker version (foss variant!)
 2. Open it (and give root permission if required) and click on the three dots at the top right corner 
-![AFWall+](images/blocker/1.jpg)
+<img src="images/blocker/1.jpg" alt="Blocker" height="450">
 3. Go to settings and click on "Controller Type"
-![AFWall+](images/blocker/2.jpg)
+<img src="images/blocker/2.jpg" alt="Blocker" height="450">
 4. Choose "Package Manager" and click ok
-![AFWall+](images/blocker/3.jpg)
+<img src="images/blocker/3.jpg" alt="Blocker" height="450">
 5. Close and open the app then go to the "Search" tab below and search for "Google Play Services" and click on it
-![AFWall+](images/blocker/4.jpg)
+<img src="images/blocker/4.jpg" alt="Blocker" height="450">
 6. Wait until it loads (around 10 seconds) and click on the "Service" tab (Note: the amount of services may differ for each person)
-![AFWall+](images/blocker/5.jpg)
+<img src="images/blocker/5.jpg" alt="Blocker" height="450">
 7. Click on the three dots on the top right corner and click on "Block all of this page" and wait until it's done
-![AFWall+](images/blocker/6.jpg)
+<img src="images/blocker/6.jpg" alt="Blocker" height="450">
 8. Enable the core services needed for GMS to work (let me know if there should be something else enabled)
 - GetToken
 - GmsApiService
@@ -64,10 +64,10 @@ So let's say you were using [Project NERV](https://github.com/yagzie/NERV) befor
 
 ##### Making use out of the Blocker app
 1. Go to the Blocker app homescreen and click on the sort option and choose "On" for "Show running apps on top"
-![AFWall+](images/blocker/7.jpg)
+<img src="images/blocker/7.jpg" alt="Blocker" height="450">
 2. Go back to the homescreen and scroll to the top
 3. Look for apps that you don't want to be running at all. Press and hold on the app you want to disable and click on "Disable"
-![AFWall+](images/blocker/8.jpg)
+<img src="images/blocker/8.jpg" alt="Blocker" height="450">
 
 ##### Note: Not every app can be disabled!
 
