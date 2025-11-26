@@ -20,7 +20,7 @@ Then reboot into the system and install the apk itself. Open the app and go thro
 
 For KSU (KernelSU) you need to have a compatible kernel zip file for your device. You should be able to find it on the internet.
 
-Since we use UN1CA-ext4 and not UN1CA you should't care in whatever the kernel supports erofs or not.
+Since we use UN1CA-ext4 and not UN1CA you shouldn't care in whatever the kernel supports erofs or not.
 
 To use KSU you need to boot into recovery and flash the kernel zip file. Then reboot into the system and install the [apk](https://github.com/tiann/KernelSU/releases) itself. Open the app and you should be good to go.
 
