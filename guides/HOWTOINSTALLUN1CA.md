@@ -44,7 +44,8 @@ You may ask why are some apps grayed out? Well, that's because Samsung loves to 
 2. Click on "Mount".
 3. Check "System". \
 <img src="../images/installation/7.png" alt="Installation" height="450">
-4. Go to the home screen and click on "Advanced" and then "Terminal".
+
+4. Go to the home screen and click on "Advanced" and then "Terminal". 
 5. Type the following command to make the system writable:
 ```bash
 mount -o remount,rw /system_root
